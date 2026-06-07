@@ -1,0 +1,19 @@
+# Python
+app/.venv/
+app/__pycache__/
+app/.pytest_cache/
+**/__pycache__/
+*.pyc
+
+# Terraform / OpenTofu
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+*.tfvars
+
+# Kind
+*.kubeconfig
+
+# OS
+.DS_Store

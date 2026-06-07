@@ -13,6 +13,9 @@ def client():
     with app.test_client() as c:
         yield c
 
+def test_intentional_failure():
+    assert 1 == 2, "This will fail and block the deploy"
+
 def test_index(client):
     r = client.get('/')
     assert r.status_code == 200

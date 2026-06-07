@@ -1,0 +1,18 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: ship-it
+  namespace: monitoring
+  labels:
+    release: monitoring
+spec:
+  namespaceSelector:
+    matchNames:
+      - ship-it
+  selector:
+    matchLabels:
+      app: ship-it
+  endpoints:
+    - port: http
+      path: /metrics
+      interval: 5s

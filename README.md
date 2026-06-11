@@ -1,6 +1,6 @@
  <div align="center">
 
-# 🚀 Ship It
+# Ship It
 
 ### From Code to Kubernetes in One Git Push
 

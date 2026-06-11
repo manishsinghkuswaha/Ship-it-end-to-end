@@ -4,7 +4,7 @@
 
 ### From Code to Kubernetes in One Git Push
 
-*A complete, production-grade DevOps pipeline — built entirely on your laptop, zero cloud cost*
+*A complete, production-grade DevOps pipeline — built entirely on your laptop, zero cloud cost.*
 
 [![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.1.0-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com)

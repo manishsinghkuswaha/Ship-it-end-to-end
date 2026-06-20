@@ -2,7 +2,7 @@
 
 # Ship It
 
-### From Code to Kubernetes in One Git Push.
+### From Code to Kubernetes in One Git Push
 
 *A complete, production-grade DevOps pipeline — built entirely on your laptop, zero cloud cost.*
 
